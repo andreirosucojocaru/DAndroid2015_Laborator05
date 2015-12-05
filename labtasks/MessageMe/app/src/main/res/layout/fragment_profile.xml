@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.rosedu.dandroid.messageme.views.ProfileFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/padding"
+        android:text="@string/profile"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <Space
+        android:layout_width="@dimen/spacer_horizontal"
+        android:layout_height="@dimen/spacer_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/you_have_been_authenticated_as"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/username_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/password_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <Space
+        android:layout_width="@dimen/spacer_horizontal"
+        android:layout_height="@dimen/spacer_vertical" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/intent_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/intent" />
+
+        <Space
+            android:layout_width="@dimen/spacer_horizontal"
+            android:layout_height="@dimen/spacer_vertical" />
+
+        <Button
+            android:id="@+id/broadcast_receiver_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/broadcast_receiver" />
+
+        <Space
+            android:layout_width="@dimen/spacer_horizontal"
+            android:layout_height="@dimen/spacer_vertical" />
+
+        <Button
+            android:id="@+id/uri_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/uri" />
+
+    </LinearLayout>
+
+</LinearLayout>
